@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Corey Phillips | Learning SWE</title>
+  </head>
+
+  <body>
+    <nav>
+        <h1>Welcome!</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline">=</ion-icon>
+        </button>
+    </nav>
+
+  <section class="hero" id="about">
+    <img
+      src="images/updatedheadshot.jpg"
+      alt="jane-doe"
+      loading="lazy"
+      class="hero-img"
+    />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">Nice to meet you!</h2>
+      <p class="bio-text">
+        My name is Corey, and I'm a Computer Science student studying at the University of Florida!
+        if you're here, it's a pleasure to have the chance to introduce myself to you. I hope that
+        the projects I have published on this site, and the site itself, will show you my skills and
+        what I'm passionate about as a student and life-long learner!
+      </p>
+    </div>
+  </section>
+
+    <!-- More about -->
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <ul class="card-set">
+            <ul class="skill-card">
+              <img
+                src="images/icons8-c++-480.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <div class="skill-text">Intermediate</div>
+            </ul>
+            <ul class="skill-card">
+              <img
+                src="images/icons8-python-480.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <div class="skill-text">Beginner-Intermediate</div>
+            </ul>
+            <ul class="skill-card">
+              <img
+                src="images/icons8-unity-480.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <div class="skill-text">Beginner</div>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <ul class="card-set">
+            <ul class="skill-card">
+              <img
+                src="images/icons8-c-sharp-logo-2-480.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <div class="skill-text">Beginner</div>
+            </ul>
+            <ul class="skill-card">
+              <img
+                src="images/icons8-html-480.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <div class="skill-text">Beginner</div>
+            </ul>
+            <ul class="skill-card">
+              <img
+                src="images/icons8-css-480.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <div class="skill-text">Beginner</div>
+            </ul>
+          </ul>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1 class="projects-title">What have I worked on recently?</h1>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="images/work-in-progress-wip.png"
+              alt="Discord Bot"
+              loading="lazy"
+              class="project-pic"
+            />
+            <ul class="project-header">
+              <h3 class="project-title">Name and Place</h3>
+              <div class="used-langs">| C++, D++</div>
+            </ul>
+            <p class="project-details">
+              Name and Place is my current work-in-progress Discord bot made
+              to be used in D&D-like, text-based game situations
+              over Discord! It will serve as an aide to storytellers and
+              game-players alike!
+            </p>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="images/www.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <ul class="project-header">
+              <h3 class="project-title">Portfolio Website</h3>
+              <div class="used-langs">| HTML, CSS, js</div>
+            </ul>
+            <p class="project-details">
+              This website uses HTML, CSS, and js to display all of this to you!
+              This undertaking is my first time doing anything like this, so 
+              I don't expect it to be perfect, but I'm proud of it!
+            </p>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="images/mine.png"
+              alt="netflic-clone"
+              loading="lazy"
+              class="project-pic"
+            />
+            <ul class="project-header">
+              <h3 class="project-title">Minesweeper</h3>
+              <div class="used-langs">| C++, SFML</div>
+            </ul>
+            <p class="project-details">
+              A recreation of the classic PC game Minesweeper made in C++
+              utilizing the SFML Library. This is a classic of the COP3503
+              class at the University of Florida!
+            </p>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="images/tree.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <ul class="project-header">
+              <h3 class="project-title">AVL Tree</h3>
+              <div class="used-langs">| C++, Catch2 Framework</div>
+            </ul>
+            <p class="project-details">
+              An implementation of the AVL Tree ADT designed to act as a
+              storage system for student names and ID numbers. Supports many
+              different kinds of searches and insertions in efficient times.
+            </p>
+          </div>
+        </div>
+        <h3 class="project-disclaimer">Project code and screenshots of functionality available upon request!</h3>
+      </section>
+
+    <section class="contacts" id="contact">
+      <div>
+        <h2>I can be reached at:</h2>
+        <h3>E-mail: phillips.corey@ufl.edu</h3>
+        <h3>Phone: +1 (352) 801 9336</h3>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
